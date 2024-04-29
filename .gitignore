@@ -1,0 +1,16 @@
+# Ignore DVC cache directory
+.dvc/cache/
+
+# Ignore DVC lock file
+.dvc.lock
+
+# Ignore DVC configuration file
+.dvc/config
+
+# Ignore system-specific files (e.g., .DS_Store on macOS)
+.DS_Store
+
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+/data.csv
